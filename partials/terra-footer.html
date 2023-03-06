@@ -1,0 +1,42 @@
+
+<amp-analytics type="googleanalytics" id="analytics_terra">
+  <script type="application/json">
+{
+    "requests": {
+        "pageviewAMP_NOT": "${pageview}&cd1=${cd1}&cd2=${cd2}&cd3=${cd3}&cd4=${cd4}&cd5=${cd5}&cd9=${cd9}&cd49=${cd49}"
+    },
+    "vars": {
+        "account": "UA-54936151-1"
+    },
+    "triggers": {
+        "trackPageviewWithCustom": {
+            "on": "visible",
+            "request": "pageviewAMP_NOT",
+            "vars": {
+                "cd1": "economia",
+                "cd2": "",
+                "cd3": "monitordomercado",
+                "cd4": "contenido_digital",
+                "cd5": "economia",
+                "cd9": "alianza",
+                "cd49": "true"
+            }
+        }
+    }
+}
+</script>
+</amp-analytics>
+<amp-analytics type="comscore">
+  <script type="application/json">
+{
+    "vars": {
+        "c2": "3000033"
+    },
+    "extraUrlParams": {
+        "comscorekw": "amp"
+    }
+}
+</script>
+</amp-analytics>
+<script type="text/javascript" async
+  src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/476ae947-b5c4-489b-ad84-321238884175-loader.js"></script>
